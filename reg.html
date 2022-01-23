@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
-	<a href="index.html">Назад</a>
-	<h1 style="font-size: 50px">Создайте аккаунт!</h1>
-	<form action="action_page.php" method="post">
-  	<label style="font-size: 30px" for="name">Введите имя:</label><br>
-  	<input style="font-size: 30px" type="text" id="name" name="user_name"><br><br>
-  	<label style="font-size: 30px" for="pass">Пароль:</label><br>
-  	<input style="font-size: 30px" type="password" id="pass" name="password"><br><br>
-	<label style="font-size: 30px" for="mail">Адрес эл. почты:</label><br>
- 	<input style="font-size: 30px" type="email" id="mail" name="mail"><br><br>
- 	<br><label style="font-size: 30px" for="capcha">Введите текст с картинки:</label><br>
- 	<img width="200" src="https://im0-tub-ru.yandex.net/i?id=85e431c2f5182d44145b0a8ff1b01c2d-sr&n=13">
- 	<br><input style="font-size: 30px" type="capcha" id="cap" name="capcha_1"><br><br>
- 	<br><input style="font-size: 30px" class="button" type="submit" value="Создать"><br>
-
-</form> 
-</body>
-</html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style2.css">
+		<title>Login</title>
+	</head>
+	<body>
+		<form>
+			<h1 title="Форма авторизации">Создайте аккаунт!</h1>
+			<div class="group">
+				<label>Имя пользователя</label>
+				<input type="text" name="">
+			</div>
+			<div class="group">
+				<label>Пароль</label>
+				<input type="password" name="">
+			</div>
+			<div class="group">
+				<label>Повторить пароль</label>
+				<input type="password" name="">
+			</div>
+			<div class="group">
+				<label>Email</label>
+				<input type="text" name="">
+			</div>
+			<div class="group">
+				<center><button>Создать</button></center>
+			</div>
+		</form>
+	</body>
+</html
